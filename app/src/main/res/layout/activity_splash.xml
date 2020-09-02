@@ -6,13 +6,13 @@
     <data>
         <variable
             name = "splashViewModel"
-            type ="mm.com.xan.dms_delivery.ui.splash.SplashViewModel"/>
+            type ="mm.com.xan.dms_shopping.ui.splash.SplashViewModel"/>
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:id="@+id/parent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="mm.com.xan.dms_delivery.ui.splash.SplashActivity">
+    tools:context="mm.com.xan.dms_shopping.ui.splash.SplashActivity">
 
     <ProgressBar
         android:id="@+id/progressBar"
