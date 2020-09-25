@@ -9,7 +9,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "mm.com.xan.dms.shopping"
+        applicationId "mm.com.phyoeMaung.frameStructure"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
