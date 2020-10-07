@@ -4,7 +4,7 @@ import mm.com.phyoeMaung.frameStructure.Application
 import mm.com.phyoeMaung.frameStructure.remote.models.BaseResponseModel
 import mm.com.phyoeMaung.frameStructure.remote.models.TestResponseModel
 import mm.com.phyoeMaung.frameStructure.repository.Resource
-import mm.com.phyoeMaung.frameStructure.responseHandler.Error
+import mm.com.phyoeMaung.frameStructure.response_handler.Error
 import mm.com.phyoeMaung.frameStructure.utilities.Log.INSTANCE.d
 import mm.com.phyoeMaung.frameStructure.utilities.Network
 import retrofit2.Response

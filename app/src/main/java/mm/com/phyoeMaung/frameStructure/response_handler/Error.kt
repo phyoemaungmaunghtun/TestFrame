@@ -1,4 +1,4 @@
-package mm.com.phyoeMaung.frameStructure.responseHandler
+package mm.com.phyoeMaung.frameStructure.response_handler
 
 class Error(val code: Int, val description: String) {
     constructor(exception: Exception) : this(

@@ -1,4 +1,4 @@
-package mm.com.phyoeMaung.frameStructure.responseHandler
+package mm.com.phyoeMaung.frameStructure.response_handler
 
 import mm.com.phyoeMaung.frameStructure.Application
 import mm.com.phyoeMaung.frameStructure.R
