@@ -6,4 +6,12 @@
     <string name="network_error">Network error, could get data,please try again!</string>
     <string name="top_news">Top News</string>
     <string name="refresh">refresh</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="employee_name">Name</string>
+    <string name="enter_salary">Salary</string>
+    <string name="enter_offday">OffDay</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_attendance">New Attendance</string>
+    <string name="save">Save</string>
+    <string name="san_san_may">San San May</string>
 </resources>

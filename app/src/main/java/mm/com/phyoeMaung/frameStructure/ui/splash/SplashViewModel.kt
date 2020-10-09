@@ -9,8 +9,8 @@ import mm.com.phyoeMaung.frameStructure.base.BaseViewModel
 import mm.com.phyoeMaung.frameStructure.remote.models.TestResponseModel
 import mm.com.phyoeMaung.frameStructure.repository.DataRepository
 import mm.com.phyoeMaung.frameStructure.repository.Resource
-import mm.com.phyoeMaung.frameStructure.responseHandler.ErrorManager
-import mm.com.phyoeMaung.frameStructure.responseHandler.ErrorMapper
+import mm.com.phyoeMaung.frameStructure.response_handler.ErrorManager
+import mm.com.phyoeMaung.frameStructure.response_handler.ErrorMapper
 import mm.com.phyoeMaung.frameStructure.utilities.Event
 
 class SplashViewModel @ViewModelInject constructor(

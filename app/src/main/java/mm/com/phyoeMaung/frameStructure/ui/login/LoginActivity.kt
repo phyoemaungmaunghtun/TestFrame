@@ -6,6 +6,7 @@ import mm.com.phyoeMaung.frameStructure.base.BaseActivity
 import mm.com.phyoeMaung.frameStructure.R
 import mm.com.phyoeMaung.frameStructure.databinding.ActivityLoginBinding
 import mm.com.phyoeMaung.frameStructure.factory.MainFragmentFactory
+import mm.com.phyoeMaung.frameStructure.ui.attendlist.AttendListFragment
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -32,7 +33,7 @@ class LoginActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         supportFragmentManager.fragmentFactory = fragmentFactory
         supportFragmentManager.beginTransaction()
-            .replace(R.id.main_container, LoginFragment::class.java, null)
+            .replace(R.id.main_container, AttendListFragment::class.java, null)
             .commit()
     }
 }

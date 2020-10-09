@@ -1,4 +1,4 @@
-package mm.com.phyoeMaung.frameStructure.responseHandler
+package mm.com.phyoeMaung.frameStructure.response_handler
 
 import javax.inject.Inject
 

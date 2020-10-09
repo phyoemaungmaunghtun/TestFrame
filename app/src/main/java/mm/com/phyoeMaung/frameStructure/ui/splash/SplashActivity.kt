@@ -8,17 +8,18 @@ import com.google.android.material.snackbar.Snackbar
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_splash.*
 import mm.com.phyoeMaung.frameStructure.base.BaseActivity
+import mm.com.phyoeMaung.frameStructure.base.BaseViewModel
 import mm.com.phyoeMaung.frameStructure.databinding.ActivitySplashBinding
 import mm.com.phyoeMaung.frameStructure.remote.models.TestResponseModel
 import mm.com.phyoeMaung.frameStructure.repository.Resource
 import mm.com.phyoeMaung.frameStructure.ui.login.LoginActivity
+import mm.com.phyoeMaung.frameStructure.ui.login.LoginViewModel
 import mm.com.phyoeMaung.frameStructure.utilities.*
 
 @AndroidEntryPoint
 class SplashActivity : BaseActivity() {
 
     private lateinit var splashViewModel: SplashViewModel
-
     private lateinit var activitySplashBinding: ActivitySplashBinding
 
     override fun initViewBinding() {
