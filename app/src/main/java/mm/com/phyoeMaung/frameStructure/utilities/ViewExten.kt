@@ -7,7 +7,8 @@ import android.widget.Toast
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
-
+import mm.com.phyoeMaung.frameStructure.navigator.AppNavigator
+import mm.com.phyoeMaung.frameStructure.navigator.AppNavigatorImpl
 
 
 fun View.showKeyboard() {
@@ -48,4 +49,8 @@ fun View.toGone() {
 
 fun View.toInvisible() {
     this.visibility = View.GONE
+}
+
+fun View.provideNavigator(): AppNavigator {
+    return AppNavigatorImpl(this)
 }

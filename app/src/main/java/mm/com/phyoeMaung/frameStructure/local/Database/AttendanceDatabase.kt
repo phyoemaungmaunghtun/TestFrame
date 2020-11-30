@@ -6,7 +6,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(entities = [EmployeeEntity::class], version = 1, exportSchema = false)
-public abstract class AttendanceDatabase : RoomDatabase() {
+abstract class AttendanceDatabase : RoomDatabase() {
 
     abstract fun EmployeeDao(): EmployeeDao
 

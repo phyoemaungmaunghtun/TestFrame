@@ -33,11 +33,11 @@ class SplashViewModel @ViewModelInject constructor(
         showToastPrivate.value = Event(error.description)
     }
 
-    fun callApi() {
+   /* fun callApi() {
         _newsLiveData.value = Resource.Loading()
         viewModelScope.launch {
             _newsLiveData.value = dataRepository.requestNews() as Resource<TestResponseModel>
         }
     }
-
+*/
 }

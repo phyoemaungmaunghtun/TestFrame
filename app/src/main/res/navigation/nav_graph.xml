@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="mm.com.phyoeMaung.frameStructure.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/frag_splash">
+        <action
+            android:id="@+id/action_splashScreen_to_loginScreen"
+            app:destination="@id/login"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/login"
+        android:name="mm.com.phyoeMaung.frameStructure.ui.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/frag_login">
+        <action
+            android:id="@+id/action_loginScreen_to_nextScreen"
+            app:destination="@id/next"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/login"
+            app:popUpToInclusive="false"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/next"
+        android:name="mm.com.phyoeMaung.frameStructure.ui.next.NextFragment"
+        android:label="NextFragment"
+        tools:layout="@layout/frag_next">
+    </fragment>
+
+</navigation>
